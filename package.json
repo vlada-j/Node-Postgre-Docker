@@ -1,0 +1,31 @@
+{
+  "name": "node-postgres-docker",
+  "version": "1.0.0",
+  "description": "Create Postgres Docker container and connect form NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start:local": "set NODE_ENV=local && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlada-j/Node-Postgre-Docker.git"
+  },
+  "keywords": [
+    "nodejs",
+    "postgres",
+    "docker",
+    "environments"
+  ],
+  "author": {
+    "name": "Vlada Janošević",
+    "email": "<vladajanosevic@gmail.com>"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/vlada-j/Node-Postgre-Docker#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "dependencies": {
+    "pg": "^8.9.0"
+  }
+}
